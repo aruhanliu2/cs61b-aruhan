@@ -3,6 +3,15 @@
  */
 public class LeapYear {
 
+	/** check whether a year is a leap year or not*/
+    public static boolean isLeapYear(int year) {
+    	System.out.printf("$ java LeapYear " + year);
+    	if (year % 4 != 0)
+    		return false;
+    	else
+    		return true;
+    }
+
     /** Calls isLeapYear to print correct statement.
      *  @param  year to be analyzed
      */
