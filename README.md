@@ -1,1 +1,1 @@
-# cs61b-aruhan
+# cs61b-lab
